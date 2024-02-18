@@ -6,16 +6,26 @@
     <title>Imagem de fundo</title>
     <style>
         body{
-            height: 97vh;
+            height: 100vh;
+            /*
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: justify;
+            */
+
+            /*SHORTHAND - BACKGROUND
+                color > image > position > repeat > [size] > attachment*/
+            
+            background: black url(imagens/wallpaper002.jpg) no-repeat fixed;
             background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             padding: 10px;
             border: 1px solid lightsalmon;
@@ -39,6 +49,5 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis beatae omnis necessitatibus nobis reprehenderit expedita architecto, molestiae doloremque ab quis. Esse sit sequi nam eveniet dolorem dolorum dolores non accusamus.
         Debitis sed a eius. Eaque excepturi incidunt earum recusandae esse, voluptatem nobis cumque in quis quidem ex molestias adipisci deserunt sit qui velit dolor placeat id odio suscipit doloribus! Porro?</p>
     </main>
-
 </body>
 </html>
