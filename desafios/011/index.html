@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronauta</title>
+    <style>
+        body{
+            height: 97vh;
+            background-image: url(imagens/espaco.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-color: black;
+        }
+
+        div#astronauta{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="astronauta">
+        <picture>
+            <source media="(max-width: 650px)" srcset="imagens/astronauta-300.png">
+            <img src="imagens/astronauta.png" alt="Astronauta no espaço">
+        </picture>
+
+    <audio preload="metadata" autoplay loop>
+        <source src="audios/Beach House - Space Song.mp3" type="audio/mpeg">
+    </audio>
+    </div>
+</body>
+</html>
