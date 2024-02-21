@@ -54,7 +54,10 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3vw;
+    font-size: 3.5vw;
+    background-image: url(../imagens/wallpaper006.jpg);
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 section.normal{
@@ -64,27 +67,26 @@ section.normal{
 section.imagem{
     background-color: rgb(49, 49, 49);
     color: white;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.336);
+    padding: 10px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.493);
+    text-shadow: 2px 2px 0px #000000;
 }
 
 section.imagem#fundo1{
     background-image: url(../imagens/background001.jpg);
-    background-position: right center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 section.imagem#fundo2{
     background-image: url(../imagens/background002.jpg);
-    background-position: right center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 footer{
