@@ -8,39 +8,89 @@
     padding: 0px;
 }
 
+:root{
+    --fonte1:  Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', sans-serif;
+    --fonte3: 'Sriracha', cursive;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
 header{
     background-color: black;
+    text-align: center;
+    color: white;
 }
 
 header h1{
-    font-family: "Passion One", sans-serif;
+    font-family: var(--fonte2);
     font-style: normal;
-    color: white;
-    text-align: center;
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-size: 10vw;
 }
 
 header nav > p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+}
+
+a{
     color: white;
-    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-header nav  p > a{
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3vw;
+}
+
+section.normal{
+    background-color: white;
+}
+
+section.imagem{
+    background-color: rgb(49, 49, 49);
     color: white;
 }
 
-main{
-    font-family: "Sriracha", cursive;
+section.imagem > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.336);
 }
 
-.cordel{
-    margin: 20px;
+section.imagem#fundo1{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section.imagem#fundo2{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 footer{
     background-color: black;
     color: white;
-}
-footer p > a{
-    color: white;
+    padding: 7px;
+    text-align: center;
+    font-size: 2vw;
 }
