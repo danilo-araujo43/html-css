@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+table{
+    width: 300px;
+    border-collapse: separate;
+}
+
+td{
+    border: 1px solid black;
+    width: 10px;
+}
+
+tr{
+    
+}
