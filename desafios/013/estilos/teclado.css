@@ -1,15 +1,24 @@
 @charset "UTF-8";
 
 table{
-    width: 300px;
+    max-width: 300px;
     border-collapse: separate;
+    margin: 10px;
+    margin: auto;
 }
 
 td{
     border: 1px solid black;
-    width: 10px;
+    text-align: center;    
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(83, 83, 83);
+    color: white;
+    font-weight: bold;
 }
 
-tr{
-    
+td:hover{
+    background-color: black;
 }
