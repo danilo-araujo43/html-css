@@ -6,6 +6,9 @@ body{
 
 table{
     border-collapse: collapse;
+    width: 500px;
+    margin: auto;   
+    margin-top: 100px;
 }
 
 .titulo{
@@ -15,4 +18,19 @@ table{
 
 td, th{
     border: 1px solid black;
+    padding: 7px;
+}
+
+caption{
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+div{
+   background-color: rgba(55, 122, 55, 0.856); 
+   color: white;
+   text-align: justify;
+   padding: 8px;
+   border-radius: 10px;
 }

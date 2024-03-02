@@ -7,39 +7,84 @@
     <link rel="stylesheet" href="../014/estilos/estilo.css">
 </head>
 <body>
+    <div>
+        <picture>
+            <source media="(max-width: 500px)" srcset="imagens/eu-pequeno.jpeg">
+            <img src="imagens/eu.jpeg" alt="Foto do aluno Carlos Danilo">
+        </picture>
+        <p><strong>Escola</strong>: E.E.E.P José Victor Fontenelle Filho.</p>
+        <p><strong>Aluno</strong>: Carlos Danilo Alves de Araújo.</p>
+        <p><strong>Turma</strong>: 2° ano do ensino médio</p>
+        <p><strong>Turno</strong>: Tempo integral</p>
+        <p><strong>Curso</strong>: Desenvolvimento de Sistemas</p>
+    </div>
+
     <table>
+        <caption>Médias do ano de 2023</caption>
         <thead>
-            <th class="titulo">Área</th>
-            <th class="titulo">Disciplinas</th>
-            <th class="titulo" colspan="2">Notas</th>       
-            <th class="titulo">Média</th>
+            <tr>
+                <th class="titulo" rowspan="2">Área</th>
+                <th class="titulo" rowspan="2">Disciplinas</th>
+                <th class="titulo" colspan="2">Notas</th>
+                <th class="titulo" rowspan="2">Média</th>
+            </tr>
+
+            <tr>
+                <th class="titulo">Nota 1</th>
+                <th class="titulo">Nota 2</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
                 <th rowspan="4">Exatas</th>
                 <td>Matemática</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>7.8</td>
+                <td>8.0</td>
+                <td>7.9</td>
             </tr>
             <tr>   
                 <td>Física</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>6.0</td>
+                <td>9.0</td>
+                <td>7.5</td>
             </tr>
             <tr>
                 <td>Química</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>8.0</td>
+                <td>9.5</td>
+                <td>8.75</td>
             </tr>
             <tr>
                 <td>Biologia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>10</td>
+                <td>8.5</td>
+                <td>9.25</td>
             </tr>
+            <thead>
+                <tr>
+                    <td class="titulo" colspan="4">Média de Exatas</td>
+                    <td class="titulo">8.35</td>
+                </tr>
+            </thead>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>8.5</td>
+                <td>9.5</td>
+                <td>9.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>8.0</td>
+                <td>10</td>
+                <td>9.0</td>
+            </tr>
+            <thead>
+                <tr>
+                    <td class="titulo" colspan="4">Média de Exatas</td>
+                    <td class="titulo">9.0</td>
+                </tr>
+            </thead>
         </tbody>
     </table>
 </body>
