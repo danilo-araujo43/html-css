@@ -4,6 +4,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+table{
+    border-collapse: collapse;
+}
+
 caption{
     font-size: 1.4em;
     font-weight: bold;
@@ -12,4 +16,12 @@ caption{
 td, th{
     border: 1px solid rgb(128, 128, 128);
     padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.301);
+}
+
+div#container{
+    overflow-x: auto;
 }
