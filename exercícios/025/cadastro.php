@@ -1,2 +1,2 @@
-Os dados foram enviados!
-Aprenda PHP para saber o que fazer com eles.
+Os dados enviados não foram salvos!
+Aprenda PHP para fazer a tratação de dados.
